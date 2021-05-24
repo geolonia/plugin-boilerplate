@@ -4,7 +4,11 @@ Geolonia [Embed API](https://docs.geolonia.com/embed-api/) のボイラープレ
 
 ## 使い方
 
-=== ここにプラグインの使い方を書きます。===
+```html
+<div class="geolonia"></div>
+<script src="https://cdn.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
+<script src="https://geolonia.github.io/plugin-boilerplate/hello-geolonia-plugin.min.js>
+```
 
 ## コントリビューション
 
