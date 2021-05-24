@@ -39,6 +39,7 @@ jobs:
             dist/
             docs/
 
+  # Please set NPM_TOKEN to use CI npm publishing
   # publish:
   #   name: 'Publish npm package'
   #   runs-on: ubuntu-latest

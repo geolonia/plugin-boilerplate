@@ -6,6 +6,7 @@ export const assets = path.resolve(__dirname, 'public')
 export const docs = path.resolve(__dirname, "docs")
 
 const config: webpack.Configuration = {
+  mode: 'production',
   entry: "./src/index.ts",
   module: {
     rules: [
@@ -26,12 +27,6 @@ const config: webpack.Configuration = {
   output: {
     path: docs,
     filename: "hello-geolonia-plugin.min.js",
-  },
-  devServer: {
-    contentBase: docs,
-    compress: true,
-    port: 3000,
-    open: true
   }
 };
 

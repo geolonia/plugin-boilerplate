@@ -4,6 +4,8 @@ Geolonia [Embed API](https://docs.geolonia.com/embed-api/) のボイラープレ
 
 ## 使い方
 
+=== ここにプラグインの使い方を書きます。===
+
 ## コントリビューション
 
 Issue、プルリクエストはいつでも歓迎します。
